@@ -1,0 +1,188 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>How to use tages | 空间诗学Xeminar</title>
+<link rel="shortcut icon" href="https://spacepoetics.github.io/favicon.ico?v=1711644550829">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://spacepoetics.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="How to use tages | 空间诗学Xeminar - Atom Feed" href="https://spacepoetics.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="I tagged the articles differently according to its content, creator, form and theme. According to these tags, it can qui..." />
+    <meta name="keywords" content="How to use tags" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://spacepoetics.github.io">
+  <img class="avatar" src="https://spacepoetics.github.io/images/avatar.png?v=1711644550829" alt="">
+  </a>
+  <h1 class="site-title">
+    空间诗学Xeminar
+  </h1>
+  <p class="site-description">
+    Someone is thinking.
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          HOME
+        </a>
+      
+    
+      
+        <a href="https://koyosho.github.io/archives" class="menu">
+          BLOG
+        </a>
+      
+    
+      
+        <a href="https://koyosho.github.io/tags" class="menu">
+          TAGS
+        </a>
+      
+    
+      
+        <a href="https://koyosho.github.io/post/about" class="menu">
+          MORE
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              How to use tages
+            </h2>
+            <div class="post-info">
+              <span>
+                2000-01-01
+              </span>
+              <span>
+                2 min read
+              </span>
+              
+                <a href="https://spacepoetics.github.io/tag/IV2yXxe6l/" class="post-tag">
+                  # How to use tags
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>I tagged the articles differently according to its content, creator, form and theme. According to these tags, it can quickly find the relevant articles.</p>
+<h2 id="by-content">By Content</h2>
+<p>日志 | journal : What I have seen, heard and thought recently<br>
+学习 | study : Notes and thoughts on learning new skills<br>
+研究 | research : Research progress and expansion related to my major<br>
+影音 | entertainment : Sharing of movies, TV series, games and music<br>
+阅读 | reading : Notes of reading that are not related to my major<br>
+游记 | travel : Travel news and tourism strategy<br>
+生活 | life : Fragments of life not in the above categories</p>
+<h2 id="by-creator">By Creator</h2>
+<p>原创 | original : I wrote it by myself, but there may be a little quotation.<br>
+转载 | reproduction : It's completely from others, I just share it for worth.<br>
+综述 | review : Mainly based on other's, but I made reviews or comments.</p>
+<h2 id="by-form">By Form</h2>
+<p>文字 | text : Text based article, the main and the most form.<br>
+图片 | image : Image based article, photography or painting.<br>
+视频 | video : Video based article, may connect to other websites.</p>
+<h2 id="by-theme">By theme</h2>
+<p>In addition to the above tags, I have also added different theme tags to some articles, such as architecture, art, literature, philosophy, etc., which are mainly used to record my reading and learning, so it can also be selected to search relevant articles.</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#by-content">By Content</a></li>
+<li><a href="#by-creator">By Creator</a></li>
+<li><a href="#by-form">By Form</a></li>
+<li><a href="#by-theme">By theme</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by Github | Gridea
+  <a class="rss" href="https://spacepoetics.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

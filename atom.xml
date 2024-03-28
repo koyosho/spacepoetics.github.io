@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://spacepoetics.github.io</id>
+    <title>空间诗学Xeminar</title>
+    <updated>2024-03-28T16:49:13.278Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://spacepoetics.github.io"/>
+    <link rel="self" href="https://spacepoetics.github.io/atom.xml"/>
+    <subtitle>Someone is thinking.</subtitle>
+    <logo>https://spacepoetics.github.io/images/avatar.png</logo>
+    <icon>https://spacepoetics.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, 空间诗学Xeminar</rights>
+    <entry>
+        <title type="html"><![CDATA[INTRO]]></title>
+        <id>https://spacepoetics.github.io/post/intro/</id>
+        <link href="https://spacepoetics.github.io/post/intro/">
+        </link>
+        <updated>2021-02-13T22:05:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Hello, Thanks for your finding here. I'm Shawn Huang, studying urban planning in Tokyo. I will upload some of my learning, photography, or other ideas here. Chinese maybe the main language, but I will also try to write in English and Japanese as a beginner.. If you have any ideas about the world, please contact me through：<a href="mailto:space@pku.org.cn">space@pku.org.cn</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Hello, Thanks for your finding here. I'm Shawn Huang, studying urban planning in Tokyo. I will upload some of my learning, photography, or other ideas here. Chinese maybe the main language, but I will also try to write in English and Japanese as a beginner.. If you have any ideas about the world, please contact me through：<a href="mailto:space@pku.org.cn">space@pku.org.cn</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[技术复制与艺术的光晕]]></title>
+        <id>https://spacepoetics.github.io/post/bi-ji-or-ji-zhu-fu-zhi-yu-yi-zhu-de-guang-yun/</id>
+        <link href="https://spacepoetics.github.io/post/bi-ji-or-ji-zhu-fu-zhi-yu-yi-zhu-de-guang-yun/">
+        </link>
+        <updated>2019-11-03T16:02:22.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to use tages]]></title>
+        <id>https://spacepoetics.github.io/post/how-to-use-tages/</id>
+        <link href="https://spacepoetics.github.io/post/how-to-use-tages/">
+        </link>
+        <updated>1999-12-31T21:03:29.000Z</updated>
+    </entry>
+</feed>
